@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.account {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.wrapper {
+	margin: 24px;
+	width: 100%;
+	height: calc(100% - 48px);
+}
+.profile {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.content {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+.name {
+	margin-bottom: 0;
+}
+.date {
+	font-size: 16px;
+	margin-top: 8px;
+}
+.editBtn {
+	margin-top: 16px;
+}

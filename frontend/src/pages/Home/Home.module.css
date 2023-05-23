@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.wrapper {
+	margin: 24px;
+	width: 100%;
+	height: calc(100% - 48px);
+}
+.account {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.accountContent {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.accountAvatar {
+	cursor: pointer;
+}
+.accountLink {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+.content {
+	width: 100%;
+	height: 450px;
+	overflow-y: scroll;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
